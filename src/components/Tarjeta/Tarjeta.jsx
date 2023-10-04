@@ -1,4 +1,4 @@
-import "./Videocard.css"
+import './Tarjeta.css'
 
 const VideoCard = (props) => {
 
