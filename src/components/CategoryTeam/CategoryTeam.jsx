@@ -1,5 +1,5 @@
 import './CategoryTeam.css'
-import VideoCard from "../VideoCard/Videocard.jsx";
+import VideoCard from "../VideoCard/Videocard.jsx"
 
 const CategoryTeam = (props) => {
 
