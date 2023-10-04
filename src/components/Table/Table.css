@@ -1,0 +1,29 @@
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #f53434bc;
+}
+
+th, td {
+    border: 1px solid #f53434bc;
+    padding: .5rem;
+    text-align: center;
+    color: #fdfbfa;
+}
+
+tr:nth-child(even) {
+    background-color: #030202;
+}
+
+.edit, .erase {
+    cursor: pointer;
+}
+
+.edit:hover {
+    color: #6f6fd5;
+}
+
+.erase:hover {
+    color: #ef0707;
+}

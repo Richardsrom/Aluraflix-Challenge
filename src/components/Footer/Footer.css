@@ -1,0 +1,13 @@
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background: #000000;
+    border-top: .5px solid #673ab7b0;
+}
+
+.footer img {
+    margin: 1rem;
+    width: 140px;
+    height: 60px;
+}

@@ -1,0 +1,33 @@
+
+.categoryTeam {
+    width: 100%;
+    box-sizing: border-box;
+    background: #030303;
+    padding: 2rem;
+}
+
+.categoryTeam h3 {
+    display: inline;
+    padding: 0.438rem;
+    border-radius: 4px;
+}
+
+.categoryTeam-videoCard {
+    margin-top: 2rem;
+    overflow: hidden;
+   
+}
+
+.categoryTeam-videoCard-container {
+    display: flex;
+    gap: 1.5rem;
+    overflow-x: scroll;
+}
+
+.categoryTeam-videoCard-container::-webkit-scrollbar {
+    display: none;
+}
+
+.delete {
+    color: #6c6cf1;
+}

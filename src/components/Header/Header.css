@@ -1,0 +1,15 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.125rem;
+    background: #000000;
+    border-bottom: .5px solid #673ab7b0;
+
+}
+
+.header img {
+    width: 140px;
+    height: 60px;
+}

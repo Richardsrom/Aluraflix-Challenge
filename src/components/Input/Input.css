@@ -1,0 +1,38 @@
+
+.input {
+    margin: 2rem 0;
+}
+
+.input label {
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: .5rem;
+}
+
+.input input {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    background-color: #292828;
+    transition: border-color 0.25s;
+    padding: .5rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.input input:hover {
+    border-color: #646cff;
+}
+
+.input-color input {
+    height: 30px;
+    padding: 5px 20px;
+}
+
+.errorMessage {
+    margin: 0;
+    margin-top: .188rem;
+    font-size: .8rem;
+    font-weight: 300;
+    color: #fb0c0c;
+}

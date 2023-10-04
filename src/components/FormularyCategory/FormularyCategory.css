@@ -1,0 +1,46 @@
+
+
+.formularyCategory {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 6rem 0;
+    background: #0f0f0f;
+    box-shadow: 7px 7px 15px rgba(251, 2, 2, 25%);
+    border-radius: 20px;
+    width: 80%;
+}
+
+.formularyCategory form {
+    width: 55%;
+    max-width: 80%;
+    padding: .5rem 6.25rem;
+}
+
+.formularyCategory h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons-1 {
+    display: flex;
+    gap: 1rem;
+}
+
+.buttons-2 {
+    padding: .5rem 6.25rem;  
+    display: flex;
+    justify-content: flex-start;
+    width: 55%;
+}
+
+.tableInfo {
+    margin: 2rem 0;
+}

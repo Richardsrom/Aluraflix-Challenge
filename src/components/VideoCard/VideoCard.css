@@ -1,0 +1,9 @@
+
+.videoCard {
+    box-sizing: border-box;
+}
+
+.videoCard-info img {
+    width: 370px;
+    height: 225px;
+}

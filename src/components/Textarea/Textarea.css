@@ -1,0 +1,28 @@
+
+.textarea {
+    margin: 2rem 0;
+
+}
+
+.textarea label {
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: .5rem;
+}
+
+.textarea textarea {
+    resize: none;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    background-color: #292828;
+    transition: border-color 0.25s;
+    padding: .5rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.textarea textarea:hover {
+    border-color: #646cff;
+
+}

@@ -1,0 +1,14 @@
+
+.title {
+    border: 1px solid #ee82ee;
+    border-radius: 10px;
+    display: flex;
+    width: fit-content;
+    background: #8b01f736;
+}
+
+.title h1 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin: .5rem;
+}

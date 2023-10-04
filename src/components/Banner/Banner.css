@@ -1,0 +1,43 @@
+.banner {
+    box-sizing: border-box;
+    width: 100%;
+    height: 34rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    gap: 1rem;
+    background-image: url('../../../public/Img/banner.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative; /* Agrega posición relativa al contenedor */
+    padding: 2rem;
+    
+}
+
+.banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(140, 1, 247, 0.1);
+    pointer-events: none; /* Esta línea permite eventos de clic en elementos subyacentes */
+}
+
+.banner-info h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+
+}
+
+.banner-info p {
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.banner-video img {
+    width: 23.75rem;
+}

@@ -1,0 +1,26 @@
+
+.categories {
+    margin: 2rem 0;
+
+}
+
+.categories label {
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: .5rem;
+}
+
+.categories select {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    background-color: #292828;
+    transition: border-color 0.25s;
+    padding: .5rem;
+    width: 100%;
+}
+
+.categories select:hover {
+    border-color: #646cff;
+
+}
